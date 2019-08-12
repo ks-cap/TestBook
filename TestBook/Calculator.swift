@@ -19,7 +19,11 @@ class Calculator {
         return x * y
     }
     
-    func division(_ x: Int, _ y: Int) -> Int {
-        return x / y
+    func division(_ x: Int, _ y: Int) -> Int? {
+        if y == 0 {
+            return nil
+        } else {
+            return x / y
+        }
     }
 }
