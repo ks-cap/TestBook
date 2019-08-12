@@ -8,6 +8,8 @@ target 'TestBook' do
   # Pods for TestBook
   pod 'SwiftLint'
   pod 'SwiftFormat/CLI'
+  pod 'Quick'
+  pod 'Nimble'
 
   target 'TestBookTests' do
     inherit! :search_paths
