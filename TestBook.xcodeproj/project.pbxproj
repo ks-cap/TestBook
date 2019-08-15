@@ -14,6 +14,7 @@
 		B209E72323019437004E0E98 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209E72223019437004E0E98 /* CalculatorTests.swift */; };
 		B209E769230537FF004E0E98 /* CalenderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209E768230537FF004E0E98 /* CalenderUtil.swift */; };
 		B209E76B2305381B004E0E98 /* CalenderUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209E76A2305381B004E0E98 /* CalenderUtilTests.swift */; };
+		B209E76E23053EFD004E0E98 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209E76D23053EFD004E0E98 /* LoginTests.swift */; };
 		B2D44AF223018F04006571A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44AF123018F04006571A2 /* AppDelegate.swift */; };
 		B2D44AF423018F04006571A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44AF323018F04006571A2 /* ViewController.swift */; };
 		B2D44AF723018F04006571A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D44AF523018F04006571A2 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		B209E72223019437004E0E98 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		B209E768230537FF004E0E98 /* CalenderUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderUtil.swift; sourceTree = "<group>"; };
 		B209E76A2305381B004E0E98 /* CalenderUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderUtilTests.swift; sourceTree = "<group>"; };
+		B209E76D23053EFD004E0E98 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		B2D44AEE23018F04006571A2 /* TestBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D44AF123018F04006571A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D44AF323018F04006571A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				B2D44B1123018F05006571A2 /* TestBookUITests.swift */,
 				B2D44B1323018F05006571A2 /* Info.plist */,
+				B209E76D23053EFD004E0E98 /* LoginTests.swift */,
 			);
 			path = TestBookUITests;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D44B1223018F05006571A2 /* TestBookUITests.swift in Sources */,
+				B209E76E23053EFD004E0E98 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
